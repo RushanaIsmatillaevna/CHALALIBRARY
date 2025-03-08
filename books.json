@@ -1,0 +1,114 @@
+[
+    {
+        "title": "1984",
+        "description": "Роман-антиутопия Джорджа Оруэлла о тоталитарном будущем.",
+        "image": "https://pigeonbooks.co.uk/cdn/shop/products/image_0da6cb0c-d596-4863-b610-29a187edec3d.jpg?v=1591551009",
+        "link": "https://www.litres.ru/dzhordzh-oruell/1984/",
+        "category": "интересное"
+    },
+    {
+        "title": "Мастер и Маргарита",
+        "description": "Культовый роман Михаила Булгакова о дьяволе в Москве.",
+        "image": "https://kniga.lv/icache/6c828ff5/e74d60fe/7ce03395.jpg",
+        "link": "https://masterimargo.ru/book.html",
+        "category": "популярное"
+    },
+    {
+        "title": "Преступление и наказание",
+        "description": "Философский роман Фёдора Достоевского о моральных дилеммах.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDrjPA24Yi6K_XBrMrwXxI6911e8obAM6whQ&s",
+        "link": "https://polka.academy/articles/627",
+        "category": "интересное"
+    },
+    {
+        "title": "Гарри Поттер и философский камень",
+        "description": "Первая книга из серии о Гарри Поттере, написанная Дж. К. Роулинг.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxBs3qMsrUQPiq4vj-ay5o0fj20oAKX5nPA&s",
+        "link": "https://librebook.me/harry_potter_and_the_sorcerer_s_stone/vol1/4",
+        "category": "новинки"
+    },
+    {
+        "title": "Шерлок Холмс: Собака Баскервилей",
+        "description": "Детектив Артура Конан Дойла о знаменитом сыщике.",
+        "image": "https://files.itv.uz/uploads/content/poster/2024/09/17//acf2c6d27b4a722b6350ff3231c5b3da-q-700x1002.jpeg",
+        "link": "http://loveread.ec/read_book.php?id=6973&p=1",
+        "category": "интересное"
+    },
+    {
+        "title": "Война и мир",
+        "description": "Эпический роман Льва Толстого о войне 1812 года.",
+        "image": "https://tolstoy.ru/upload/creativity/fiction/detail/upload/iblock/72e/w-p.jpg",
+        "link": "https://ilibrary.ru/text/11/p.1/index.html",
+        "category": "популярное"
+    },
+    {
+        "title": "Гордость и предубеждение",
+        "description": "Роман Джейн Остин о любви и социальных нравах Англии XIX века.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTRcimoNl8qRnEy42I0dgdEDjsnM3HucLnQ&s",
+        "link": "https://www.litres.ru/book/dzheyn-ostin/gordost-i-predubezhdenie-6257491/chitat-onlayn/",
+        "category": "новинки"
+    },
+    {
+        "title": "Старик и море",
+        "description": "Рассказ Эрнеста Хемингуэя о стойкости духа и борьбе с природой.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp-dLcXvUvI64pLAuxWgI2mlk0miSU1umSiw&s",
+        "link": "http://loveread.ec/view_global.php?id=2468",
+        "category": "интересное"
+    },
+    {
+        "title": "Думай и богатей",
+        "description": "Знаменитая книга Наполеона Хилла о достижении успеха.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8aQSOKE47eeg6bdNtZGHbN16w9U0F5c49Cg&s",
+        "link": "http://loveread.ec/view_global.php?id=9064",
+        "category": "саморазвитие"
+    },
+    {
+        "title": "Психология влияния",
+        "description": "Книга Роберта Чалдини о техниках убеждения и манипуляции.",
+        "image": "https://cdn.eksmo.ru/v2/ITD000000001151043/COVER/cover1__w820.jpg",
+        "link": "http://loveread.ec/read_book.php?id=51721&p=1",
+        "category": "новинки"
+    },
+    {
+        "title": "Богатый папа, бедный папа",
+        "description": "Книга Роберта Кийосаки о финансовой грамотности.",
+        "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg",
+        "link": "http://loveread.ec/read_book.php?id=4461&p=1",
+        "category": "новинки"
+    },
+    {
+        "title": "Тонкое искусство пофигизма",
+        "description": "Современная книга о том, как перестать переживать из-за мелочей.",
+        "image": "https://www.litres.ru/pub/c/cover/25440816.jpg",
+        "link": "https://mybook.ru/author/mark-menson/tonkoe-iskusstvo-pofigizma-paradoksalnyj-sposob-zh/read/",
+        "category": "саморазвитие"
+    },
+    {
+        "title": "Сила настоящего",
+        "description": "Учение Экхарта Толле о жизни в настоящем моменте.",
+        "image": "https://mybook.ru/storage/public/books/4e/fb/4efbc53c-6fd7-348f-bd30-c18977378071/cover.jpg",
+        "link": "https://mybook.ru/author/ekhart-tolle-3/the-power-of-now-sila-nastoyashego/read/",
+        "category": "интересное"
+    },
+    {
+        "title": "Атлант расправил плечи",
+        "description": "Знаменитый философский роман Айн Рэнд о свободе и бизнесе.",
+        "image": "https://mybook.ru/storage/public/books/84/d0/84d02ec7-f556-3e1f-a544-87760dee9f05/cover.jpg",
+        "link": "https://mybook.ru/author/ajn-rend/atlant-raspravil-plechi/read/",
+        "category": "интересное"
+    },
+    {
+        "title": "Человек в поисках смысла",
+        "description": "Книга Виктора Франкла о силе духа и выживании.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6PXYmv9kLU4LvW2DBdziT7YmMaFasdEHZXA&s",
+        "link": "https://imwerden.de/pdf/frankl_chelovek_v_poiskakh_smysla_1990.pdf",
+        "category": "новинки"
+    },
+    {
+        "title": "Черный лебедь",
+        "description": "Книга Нассима Талеба о редких событиях и их влиянии.",
+        "image": "https://readli.net/wp-content/uploads/2015/09/BC2_1404052015.jpg",
+        "link": "https://mybook.ru/author/nassim-nikolas-taleb/chernyj-lebed-pod-znakom-nepredskazuemosti-sbornik/read/",
+        "category": "новинки"
+    }
+]

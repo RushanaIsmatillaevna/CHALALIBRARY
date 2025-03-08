@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>LIBRARY</h1>    
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="category-btn" data-category="интересное">Интересное</a></li>
+                    <li><a href="#" class="category-btn" data-category="популярное">Популярное</a></li>
+                    <li><a href="#" class="category-btn" data-category="новинки">Новинки</a></li>
+                    <li><a href="#" class="category-btn" data-category="саморазвитие">Саморазвитие</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-container">
+                <input type="search" id="searchInput" placeholder="Поиск...">
+                <button id="favoriteBtn" title="Избранное">⭐</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="booksContainer" class="books-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
