@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Библиотека</title>
+    <title>Library</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <div class="header">
-            <h1>LIBRARY</h1>    
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="#" class="category-btn" data-category="интересное">Интересное</a></li>
-                    <li><a href="#" class="category-btn" data-category="популярное">Популярное</a></li>
-                    <li><a href="#" class="category-btn" data-category="новинки">Новинки</a></li>
-                    <li><a href="#" class="category-btn" data-category="саморазвитие">Саморазвитие</a></li>
-                    <li><a href="#" class="category-btn" data-category="романтика">Романтика</a></li>
-                    <li><a href="#" class="category-btn" data-category="детектив">Детектив</a></li>
-                    <li><a href="#" class="category-btn" data-category="бизнес">Бизнес</a></li>
-                </ul>
-            </nav>
-            
+
+    <div class="content">
+        <div class="header-container">
+            <h1>LIBRARY</h1>
+            <div class="menu">
+                <a id="inter" href="#">Interesting</a>
+                <a id="popular" href="#">Popular</a>
+                <a id="new" href="#">New</a>
+                <a id="contacts" href="#">Contacts</a>
+            </div>
             <div class="search-container">
-                <input type="search" id="searchInput" placeholder="Поиск...">
-                <button id="favoriteBtn" title="Избранное">⭐</button>
+                <input type="search" id="searchInput" placeholder="Enter your task...">
+                <button id="fav-btn">⭐️<span id="fav-count">0</span></button>
+                <select class="til">
+                    <option value="en">English</option>
+                    <option value="ru">Русский</option>
+                    <option value="uz">O'zbek</option>
+                </select>
             </div>
         </div>
-    </header>
+    </div>
 
-    <main>
-        <section id="booksContainer" class="books-container"></section>
-    </main>
-
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="section" id="userList"></div>
+    </div>
 </body>
+
 </html>

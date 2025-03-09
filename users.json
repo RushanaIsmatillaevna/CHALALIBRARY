@@ -1,0 +1,77 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "image": "https://m.media-amazon.com/images/I/81AfHC8CS+L.jpg",
+        "author": "F. Scott Fitzgerald"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "image": "https://m.media-amazon.com/images/I/81wgcld4wxL.jpg",
+        "author": "Jane Austen"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg",
+        "author": "Harper Lee"
+    },
+    {
+        "title": "Wuthering Heights",
+        "image": "https://m.media-amazon.com/images/I/91cCTM1aHdL.jpg",
+        "author": "Emily Brontë"
+    },
+    {
+        "title": "1984",
+        "image": "https://m.media-amazon.com/images/I/71kxa1-0AfL.jpg",
+        "author": "George Orwell"
+    },
+    {
+        "title": "Jane Eyre",
+        "image": "https://m.media-amazon.com/images/I/91HHqVTAJQL.jpg",
+        "author": "Charlotte Brontë"
+    },
+    {
+        "title": "Moby-Dick",
+        "image": "https://m.media-amazon.com/images/I/81XfPMvZcPL.jpg",
+        "author": "Herman Melville"
+    },
+    {
+        "title": "Little Women",
+        "image": "https://m.media-amazon.com/images/I/81+vg7OePWL.jpg",
+        "author": "Louisa May Alcott"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg",
+        "author": "J.D. Salinger"
+    },
+    {
+        "title": "The Scarlet Letter",
+        "image": "https://m.media-amazon.com/images/I/91MVNdw6gDL.jpg",
+        "author": "Nathaniel Hawthorne"
+    },
+    {
+        "title": "Brave New World",
+        "image": "https://m.media-amazon.com/images/I/71BxS9H1ilL.jpg",
+        "author": "Aldous Huxley"
+    },
+    {
+        "title": "Frankenstein",
+        "image": "https://m.media-amazon.com/images/I/81MF1jxFQvL.jpg",
+        "author": "Mary Shelley"
+    },
+    {
+        "title": "Crime and Punishment",
+        "image": "https://m.media-amazon.com/images/I/91wx8q+kL4L.jpg",
+        "author": "Fyodor Dostoevsky"
+    },
+    {
+        "title": "The Odyssey",
+        "image": "https://m.media-amazon.com/images/I/81AK8sI2TbL.jpg",
+        "author": "Homer"
+    },
+    {
+        "title": "The Brothers Karamazov",
+        "image": "https://m.media-amazon.com/images/I/71E3zGGD6JL.jpg",
+        "author": "Fyodor Dostoevsky"
+    }
+]
