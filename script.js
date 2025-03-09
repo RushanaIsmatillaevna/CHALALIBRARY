@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const favoriteBtn = document.getElementById("favoriteBtn");
     const categoryButtons = document.querySelectorAll(".category-btn");
 
-    let books = []; 
+    let books = [];
     let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-    let selectedCategory = ""; // Выбранная категория
+    let selectedCategory = "";
 
     async function loadBooks() {
         try {
@@ -19,34 +19,36 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function renderBooks(filter = "", showFavorites = false) {
-        booksContainer.innerHTML = ""; 
+        booksContainer.innerHTML = "";
 
-        (showFavorites ? books.filter(book => favorites.includes(book.title)) : books).forEach(book => {
-            if (
-                book.title.toLowerCase().includes(filter.toLowerCase()) &&
-                (selectedCategory === "" || book.category.toLowerCase() === selectedCategory.toLowerCase())
-            ) {
-                const bookCard = document.createElement("div");
-                bookCard.classList.add("card");
+        const filteredBooks = books.filter(book => {
+            const matchesTitle = book.title.toLowerCase().includes(filter.toLowerCase());
+            const matchesCategory = selectedCategory === "" || book.category.toLowerCase() === selectedCategory;
+            const isFavorite = favorites.includes(book.title);
+            return matchesTitle && matchesCategory && (!showFavorites || isFavorite);
+        });
 
-                const isFavorite = favorites.includes(book.title);
+        filteredBooks.forEach(book => {
+            const bookCard = document.createElement("div");
+            bookCard.classList.add("card");
 
-                bookCard.innerHTML = `
-                    <img src="${book.image}" alt="${book.title}">
-                    <h2>${book.title}</h2>
-                    <p>${book.description}</p>
-                    <a href="${book.link}" target="_blank" class="read-btn">Читать онлайн</a>
-                    <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-title="${book.title}">
-                        ${isFavorite ? "⭐" : "☆"}
-                    </button>
-                `;
+            const isFavorite = favorites.includes(book.title);
 
-                booksContainer.appendChild(bookCard);
-            }
+            bookCard.innerHTML = `
+                <img src="${book.image}" alt="${book.title}">
+                <h2>${book.title}</h2>
+                <p>${book.description}</p>
+                <a href="${book.link}" target="_blank" class="read-btn">Читать онлайн</a>
+                <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-title="${book.title}">
+                    ${isFavorite ? "⭐" : "☆"}
+                </button>
+            `;
+
+            booksContainer.appendChild(bookCard);
         });
 
         document.querySelectorAll(".favorite-btn").forEach(button => {
-            button.addEventListener("click", () => toggleFavorite(button.dataset.title));
+            button.addEventListener("click", (e) => toggleFavorite(e.target.dataset.title));
         });
     }
 
@@ -71,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     categoryButtons.forEach(button => {
         button.addEventListener("click", (e) => {
-            e.preventDefault(); 
+            e.preventDefault();
             selectedCategory = button.dataset.category.toLowerCase();
             renderBooks(searchInput.value);
         });
